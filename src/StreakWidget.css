@@ -1,0 +1,50 @@
+/* StreakWidget.css */
+
+@import url(https://db.onlinewebfonts.com/c/14936bb7a4b6575fd2eee80a3ab52cc2?family=Feather+Bold);
+@import url(https://fonts.googleapis.com/css?family=Nunito);
+
+.parent {
+    width: 100vw;
+    height: 99vh;
+    resize:both;
+    overflow:hidden;
+}
+
+.streak-widget {
+  position:relative;
+  width:500px;
+  height:500px;
+  background-image: url('./Duolingo-Background.jpg');
+  background-repeat:no-repeat;
+  background-size:contain;
+}
+
+.streak-num {
+  font-family: "Feather Bold", "Nunito", Arial, Helvetica, sans-serif;
+  position: relative;
+  width: 50%;
+  height: 31%;
+  top: 21%;
+  left: 3%;
+  font-size:151px;
+  color:white;
+  font-weight:bold;
+  letter-spacing:-15px;
+  text-shadow: 
+    15px 0px 0px rgb(250,150,0),
+    13.859px 5.741px 0px rgb(250,150,0),
+    10.607px 10.607px 0px rgb(250,150,0),
+    5.741px 13.859px 0px rgb(250,150,0),
+    0px 15px 0px rgb(250,150,0),
+    -5.741px 13.859px 0px rgb(250,150,0),
+    -10.607px 10.607px 0px rgb(250,150,0),
+    -13.859px 5.741px 0px rgb(250,150,0),
+    -15px 0px 0px rgb(250,150,0),
+    -13.859px -5.741px 0px rgb(250,150,0),
+    -10.607px -10.607px 0px rgb(250,150,0),
+    -5.741px -13.859px 0px rgb(250,150,0),
+    0px -15px 0px rgb(250,150,0),
+    5.741px -13.859px 0px rgb(250,150,0),
+    10.607px -10.607px 0px rgb(250,150,0),
+    13.859px -5.741px 0px rgb(250,150,0);
+}
